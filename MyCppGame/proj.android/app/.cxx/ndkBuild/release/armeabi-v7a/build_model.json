@@ -1,0 +1,66 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android",
+      "sdkFolder": "/Users/navenduayush/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/build/intermediates",
+      "gradleModulePathName": ":MyCppGame",
+      "moduleRootFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app",
+      "makeFile": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/jni/Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/.cxx",
+      "cxxFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx",
+      "ndkFolder": "/Users/navenduayush/Desktop/Libraries/android-ndk",
+      "ndkVersion": "16.1.4479499",
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "MIPS",
+        "MIPS64",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "NDK_TOOLCHAIN_VERSION\u003dclang",
+      "-j8",
+      "NDK_DEBUG\u003d0"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/build/intermediates/ndkBuild/release/lib",
+    "objFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/build/intermediates/ndkBuild/release/obj/local",
+    "jsonFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/ndkBuild/release",
+    "gradleBuildOutputFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/cxx/release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": [
+      "MyGame"
+    ]
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 14,
+  "cxxBuildFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/ndkBuild/release/armeabi-v7a",
+  "jsonFile": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/ndkBuild/release/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/cxx/release/armeabi-v7a",
+  "objFolder": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a",
+  "buildCommandFile": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/ndkBuild/release/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/ndkBuild/release/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/ndkBuild/release/armeabi-v7a/build_model.json",
+  "jsonGenerationLoggingRecordFile": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/ndkBuild/release/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/navenduayush/personalWorkspace/cannonBuster/MyCppGame/proj.android/app/.cxx/ndkBuild/release/armeabi-v7a/compile_commands.json"
+}
