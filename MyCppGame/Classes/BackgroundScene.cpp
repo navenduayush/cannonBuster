@@ -23,27 +23,17 @@ bool BackgroundScene::init() {
         return false;
     }
 
-    auto visibleSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
-
-    // label creation here
-    auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
-    if (label == nullptr) {
-        problemLoading("'fonts/Marker Felt.ttf'");
-    } else {
-        label->setPosition(
-                Vec2(origin.x + visibleSize.width / 2, origin.y + visibleSize.height - label->getContentSize().height));
-        this->addChild(label, 1);
-    }
-
-    // adding "HelloWorld" splash screen
-    auto sprite = Sprite::create("HelloWorld.png");
-    if (sprite == nullptr) {
-        problemLoading("'HelloWorld.png'");
-    } else {
-        sprite->setPosition(Vec2(visibleSize.width / 2 + origin.x, visibleSize.height / 2 + origin.y));
-        this->addChild(sprite, 0);
-    }
+//    auto visibleSize = Director::getInstance()->getVisibleSize();
+//    Vec2 origin = Director::getInstance()->getVisibleOrigin();
+//
+//    // adding Background Image sprite here
+//    auto sprite = Sprite::create("HelloWorld.png");
+//    if (sprite == nullptr) {
+//        problemLoading("'HelloWorld.png'");
+//    } else {
+//        sprite->setPosition(Vec2(visibleSize.width / 2 + origin.x, visibleSize.height / 2 + origin.y));
+//        this->addChild(sprite, 0);
+//    }
     return true;
 }
 
